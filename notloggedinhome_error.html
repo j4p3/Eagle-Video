@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Welcome to Eagle Video of New England</title>
+</head>
+<body>
+<h1 align="center">Eagle Video of New England</h1>
+<br>
+
+<DIV align="right">
+<form method=post action="login.php">
+We did not recognize your username/password combination.
+<P>
+Please try again:
+<br>
+Username: <input type=text name = "nm" size=10>
+<br>
+Password: <input type=password name = "pwd" size=10>
+<br>
+<input type=submit>
+</form>
+<br>
+Not a member? Sign up <a href="sign-up.html">here</a>.
+</DIV>
+
+<br>
+<form method=get action="search_results.php">
+Select an option to search by and then type in your search: 
+<select name="searchtype">
+   <option value="genre">Genre</option>
+   <option value="actor">Actor Name</option>
+   <option value="title">Movie Title</option>
+</select> <br>
+   
+<input type=text name = "search" size=10>
+<br>
+<input type=submit>
+</form>
+<P>
+*Please be sure to enter in your search with proper capitalization
+<br>
+(Capitalize actor's names, movie titles, and genres.)
+<P>
+
+
+</html>

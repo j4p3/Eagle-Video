@@ -1,0 +1,52 @@
+<?php
+	//	detect user identity
+	session_start();
+	$user = $_SESSION["username"];
+
+	//	Query db for postgres
+	$dbconn = pg_connect("host=postgres09.bc.edu dbname=Movies user=postgres password=swagzone");
+		if ($dbconn == null) {
+		    echo "Could not connect to the database";
+			pg_close($dbconn);
+		    return;
+	}
+	$query = "SELECT mTitle from shoppingCart where sessionID = '" . $user"'";
+	$result = pg_query($dbconn, $query) or die("Query Failed: ") . pg_last_error();
+/?>
+<html>
+<head>
+<title>Checkout - Eagle Video</title>
+</head>
+<body>
+<a href="loggedinhome.php">Return to Home</a>
+<div>
+<table style="text-align: left; width: 100%;">
+    <tr>
+      <td>Movie</td>
+    </tr>
+<?php
+//	generate table of movies currently in cart
+		while ($row=pg_fetch_array($result)) {
+			$title = $row["mTitle"];
+			echo "<tr><td>" . $title . "</td></tr>";
+		}
+?>
+</table>
+<input name="BAddress"><br>
+<div>
+Enter Shipping Address
+<input name="SAddress"><br>
+<div>
+Credit Card Number
+<input name="CCnum"><br>
+</div>
+</div>
+<form method=GET action="exit.html">
+<input type=submit value="Purchase">
+</form>
+<br>
+<form method=GET action="loggedinhome.html">
+<input type=submit value="Back to Home">
+</form>
+</body>
+</html>

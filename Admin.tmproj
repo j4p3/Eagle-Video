@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentDocument</key>
+	<string>Classes/DB S&amp;A/Project/accountinfoview.php</string>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Classes/DB S&amp;A/Project/search_results.php</string>
+			<key>lastUsed</key>
+			<date>2010-12-08T03:24:07Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Classes/DB S&amp;A/Project/movie.php</string>
+			<key>lastUsed</key>
+			<date>2010-12-08T03:24:07Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Classes/DB S&amp;A/Project/accountinfoview.php</string>
+			<key>lastUsed</key>
+			<date>2010-12-08T03:53:04Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Classes/DB S&amp;A/Project/admin_home.php</string>
+			<key>lastUsed</key>
+			<date>2010-12-08T03:25:19Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>rentals_user2.php</string>
+			<key>lastUsed</key>
+			<date>2010-12-08T03:53:04Z</date>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict>
+		<key>Classes/DB S&amp;A/Project/accountinfoview.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>69</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>73</integer>
+		</dict>
+		<key>Classes/DB S&amp;A/Project/admin_home.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>54</integer>
+				<key>line</key>
+				<integer>26</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+		</dict>
+		<key>Classes/DB S&amp;A/Project/movie.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>35</integer>
+				<key>line</key>
+				<integer>154</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>65</integer>
+		</dict>
+		<key>Classes/DB S&amp;A/Project/search_results.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>39</integer>
+				<key>line</key>
+				<integer>108</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>94</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>Classes/DB S&amp;A/Project/movie.php</string>
+		<string>Classes/DB S&amp;A/Project/search_results.php</string>
+		<string>Classes/DB S&amp;A/Project/accountinfoview.php</string>
+		<string>Classes/DB S&amp;A/Project/admin_home.php</string>
+	</array>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{54, -5}, {639, 778}}</string>
+</dict>
+</plist>
